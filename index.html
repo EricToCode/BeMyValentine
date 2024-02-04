@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentines!</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <!-- Main Image Row -->
+        <div class="main-image-row">
+            <img id="mainImage" src="cat.png" alt="Main Image">
+        </div>
+        <h1 id="message" style="text-align:center">WILL YOU BE MY VALENTINES MY STINKY POOKIE</h1>
+
+
+        <!-- Sub Images Row -->
+        <div class="sub-images-row">
+            <div class="sub-images">
+                <img id="subImage1" src="yes.jpg" alt="Sub Image 1" style="width:200px">
+                <button onclick="changePosition('left')">Yes</button>
+            </div>
+            <div class="sub-images">
+                <img id="subImage2" src="no.jpg" alt="Sub Image 2" style="width:200px">
+                <button id="noButton" onclick="changePosition('right')">No</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

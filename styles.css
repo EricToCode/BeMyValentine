@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffd9e6;
+    color:black;
+}
+
+.container {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#mainImage {
+    width: 30%;
+    height: auto;
+}
+
+.sub-images-row {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px; /* Adjust padding for a larger button */
+    background-color: #ff3399; /* Rose red background color */
+    color: white; /* Set text color to white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
